@@ -1,0 +1,65 @@
+input#url {
+	min-width: 40em;
+	width: 93%;
+	position: relative;
+}
+#params table {
+	font-size: small;
+}
+#params input {
+	width: 34em;
+}
+div#params {
+	min-width: 40em;
+	position: relative;
+	background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 10px 0px 10px 5px;	
+}
+#redirect {
+	float: right;
+	margin-top: 0.5em;
+	margin-right: 0.5em;	
+	margin-bottom: 1em;
+}
+#decodeDiv {
+	min-width: 40em;
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+#decode {
+	float: right;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+hr { 
+    margin-bottom: 1.5em;
+} 
+#help {
+  float: right;
+  cursor: default;
+  border: solid 1px silver;
+  font-size: 1.2em;
+  border-radius: 3px;
+  width: 3%;
+  text-align: center;
+}
+#help div {
+	display: none;
+	font-size: 0.8em;
+	background-color: rgb(255, 232, 0);
+	box-shadow: 3px 3px 1px #aaaaaa;
+	max-width: 50%;
+	position: absolute;
+	cursor: default;
+	float: right;
+	margin-left: -265px;
+	margin-top: 10px;
+  	padding: 7px; 
+  	z-index: 1000;
+  	border-radius: 3px;
+}
+#help:hover div {
+	display: block;
+}

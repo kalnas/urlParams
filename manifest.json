@@ -1,0 +1,16 @@
+{
+  "name": "URL Params",
+  "manifest_version": 2,
+  "permissions": [
+          "tabs"
+        ],
+  "version": "1.0",
+  "description": "URL Params",
+  "icons": { 
+  		"64": "vader.png"
+  	},  
+  "browser_action": {
+  	"default_icon": "vader.png",
+    "default_popup": "popup.html"
+  }
+}
